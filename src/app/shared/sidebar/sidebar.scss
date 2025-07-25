@@ -1,0 +1,23 @@
+mat-sidenav {
+  background-color: #303f9f;
+  color: white;
+  width: 220px;
+}
+
+mat-nav-list a {
+  color: #cfd8dc;
+  font-weight: 500;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #b4bae3;
+    color: white;
+  }
+
+  &.active {
+    background-color: #3949ab;
+    border-left: 4px solid #82b1ff;
+    color: #ffffff;
+  }
+}

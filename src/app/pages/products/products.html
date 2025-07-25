@@ -1,0 +1,16 @@
+<div class="product-list">
+  <div class="product-item" *ngFor="let product of productList">
+    <img class="product-image" [src]="product.listPageDetails?.imageUrl" [alt]="product.title" />
+    
+    <div class="product-info">
+      <h2 class="product-title">{{ product.title }}</h2>
+      <h4 class="product-author">{{ product.author }}</h4>
+      <p class="product-description">{{ product.listPageDetails?.description }}</p>
+      <p class="product-price"><strong>Price:</strong> ₹{{ product.price }}</p>
+      
+      <button mat-raised-button color="primary" (click)="viewDetails(product.id)">
+        View Details
+      </button>
+    </div>
+  </div>
+</div>

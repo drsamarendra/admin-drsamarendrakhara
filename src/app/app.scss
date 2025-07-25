@@ -1,0 +1,18 @@
+.admin-container {
+  height: 100vh;
+}
+
+.admin-sidenav {
+  width: 250px;
+}
+
+.admin-body {
+  padding: 24px;
+  min-height: calc(100vh - 64px); // minus toolbar height
+  background-color: #f5f6fa;
+}
+.main-content {
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  padding: 24px;
+}

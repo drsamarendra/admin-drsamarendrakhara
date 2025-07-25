@@ -1,0 +1,55 @@
+<mat-card class="edit-form-card">
+  <mat-card-title>Edit Product Details</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+      <!-- 1. Basic Info -->
+      <div class="form-section">
+        <h3>Basic Info</h3>
+        <div class="form-row">
+          <mat-form-field appearance="outline">
+            <mat-label>Title</mat-label>
+            <input matInput formControlName="title" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Author</mat-label>
+            <input matInput formControlName="author" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Price</mat-label>
+            <input matInput type="number" formControlName="price" />
+          </mat-form-field>
+        </div>
+      </div>
+
+      <!-- 2. List Page Details -->
+      <div class="form-section">
+        <h3>List Page Details</h3>
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>List Image URL</mat-label>
+            <input matInput formControlName="listImageUrl" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>List Description</mat-label>
+            <textarea matInput rows="3" formControlName="listDescription"></textarea>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <!-- 3. Product Page Details -->
+      <div class="form-section">
+        <h3>Product Description</h3>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Product Description</mat-label>
+          <textarea matInput rows="8" formControlName="productDescription"></textarea>
+        </mat-form-field>
+      </div>
+
+      <!-- Save Button -->
+      <button mat-raised-button color="primary" type="submit">Save Changes</button>
+    </form>
+  </mat-card-content>
+</mat-card>

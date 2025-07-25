@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "color": "primary",
+        "title": "The Indian Express",
+        "image": "assets/newspost/b1.jpg",
+        "order": 1,
+        "date": "2024-06-15",
+        "link": "https://indianexpress.com/article/cities/kolkata/west-bengal-climate-change-threat-beloved-delicate-heritage-mango-9393943/"
+    },
+    {
+        "id": 2,
+        "color": "success",
+        "title": "SAPTAHIK BARTAMAN",
+        "image": "assets/newspost/b2.jpeg",
+        "order": 2,
+        "date": "2024-05-04",
+        "link": "https://example.com/post/2"
+    },
+    {
+        "id": 3,
+        "color": "warning",
+        "title": "ABP",
+        "image": "assets/newspost/b5.jpg",
+        "order": 3,
+        "date": "2021-04-07",
+        "link": "https://example.com/post/3"
+    },
+    {
+        "id": 4,
+        "color": "info",
+        "title": "ABP",
+        "image": "assets/newspost/b6.jpg",
+        "order": 4,
+        "date": "2021-08-25",
+        "link": "https://example.com/post/4"
+    },
+    {
+        "id": 5,
+        "color": "danger",
+        "title": "ABP",
+        "image": "assets/newspost/b7.jpg",
+        "order": 5,
+        "date": "2021-12-09",
+        "link": "https://example.com/post/5"
+    },
+    {
+        "id": 6,
+        "color": "info",
+        "title": "ABP",
+        "image": "assets/newspost/b8.jpg",
+        "order": 6,
+        "date": "2021-09-02",
+        "link": "https://example.com/post/6"
+    },
+    {
+        "id": 7,
+        "color": "danger",
+        "title": "ABP",
+        "image": "assets/newspost/b9.jpg",
+        "order": 7,
+        "date": "2020-08-12",
+        "link": "https://example.com/post/7"
+    },
+    {
+        "id": 8,
+        "color": "info",
+        "title": "ABP",
+        "image": "assets/newspost/b10.jpg",
+        "order": 8,
+        "date": "2023-04-12",
+        "link": "https://example.com/post/8"
+    },
+    {
+        "id": 9,
+        "color": "danger",
+        "title": "ABP",
+        "image": "assets/newspost/b11.jpg",
+        "order": 9,
+        "date": "2023-03-01",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 10,
+        "color": "danger",
+        "title": "ABP",
+        "image": "assets/newspost/b12.jpg",
+        "order": 9,
+        "date": "2024-02-07",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 11,
+        "color": "danger",
+        "title": "SAPTAHIK BARTAMAN",
+        "image": "assets/newspost/b13.jpg",
+        "order": 9,
+        "date": "2015-05-30",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 12,
+        "color": "danger",
+        "title": "SANBAD PRATIDIN",
+        "image": "assets/newspost/b14.jpg",
+        "order": 9,
+        "date": "2011-06-14",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 13,
+        "color": "danger",
+        "title": "SANBAD PRATIDIN",
+        "image": "assets/newspost/b15.jpg",
+        "order": 9,
+        "date": "2011-05-12",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 14,
+        "color": "danger",
+        "title": "SANBAD PRATIDIN",
+        "image": "assets/newspost/b16.jpg",
+        "order": 9,
+        "date": "2012-04-26",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 15,
+        "color": "danger",
+        "title": "SANBAD PRATIDIN",
+        "image": "assets/newspost/b17.jpg",
+        "order": 9,
+        "date": "2012-04-26",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 16,
+        "color": "danger",
+        "title": "GANASHAKTI",
+        "image": "assets/newspost/b18.jpg",
+        "order": 9,
+        "date": "2011-06-02",
+        "link": "https://example.com/post/9"
+    },
+    {
+        "id": 17,
+        "color": "danger",
+        "title": "SANBAD PRATIDIN",
+        "image": "assets/newspost/b19.jpg",
+        "order": 9,
+        "date": "2011-05-04",
+        "link": "https://example.com/post/9"
+    }
+]

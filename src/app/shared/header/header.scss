@@ -1,0 +1,15 @@
+mat-toolbar {
+  background-color: #3949ab;
+  color: white;
+  padding: 0 16px;
+
+  .header-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+
+  button {
+    color: white;
+  }
+}
